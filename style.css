@@ -1,0 +1,504 @@
+/* Hide Scroll bar */
+/* ::-webkit-scrollbar {
+    width: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 0, 0, 0);
+} */
+
+::-webkit-scrollbar{
+    width: 0.5vw;
+}
+::-webkit-scrollbar:hover{
+    width: 0.6vw;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background:#ffffff url(./Photos/Logos/Scrollbar_Thumb.png) no-repeat;
+    background-size: 90%;  
+    background-position: center;
+    display: block;
+    border-bottom-left-radius: 25vw;
+    border-top-left-radius: 25vw;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    overflow: overlay;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+@font-face {
+    font-family: "Aharoni-Bold";
+    src: url("./Fonts/Aharoni\ Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "keep-calm";
+    src: url("./Fonts/keep-calm.regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "poppins-thin";
+    src: url("./Fonts/poppins.thin.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "poppins.medium";
+    src: url("./Fonts/poppins.semibold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "poppins.light";
+    src: url("./Fonts/poppins.light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+#MainPage{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(19, 19, 19);
+}
+    #Aircraft_Preview{
+        width: 100vw; height: 100vh;
+        position: fixed;
+        left: 50%; bottom: 0%;
+        transform: translateX(-50%);
+    }
+    #MP_Title{
+        position: fixed;
+        left: 50%; top: 7vh;
+        transform: translateX(-50%);
+        font-family: "Aharoni-Bold";
+        font-size: 10vw;
+        color: white;  
+        text-shadow: 0 1px 0 #ccc, 
+                    0 2px 0 #c9c9c9,
+                    0 3px 0 #bbb,
+                    0 4px 0 #b9b9b9,
+                    0 5px 0 #aaa,
+                    0 6px 1px rgba(0,0,0,.1),
+                    0 0 5px rgba(0,0,0,.1),
+                    0 1px 3px rgba(0,0,0,.3),
+                    0 3px 5px rgba(0,0,0,.2),
+                    0 5px 10px rgba(0,0,0,.25),
+                    0 10px 10px rgba(0,0,0,.2),
+                    0 20px 20px rgba(0,0,0,.15);
+    }   
+    #MP_Microsoft{
+        position: fixed;
+        left: 50%; bottom: 10vh;
+        transform: translateX(-50%);
+        width: 30vw; height: 10vh;
+        background-image: url(./Photos/Logos/Microsoft.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+#BottomSection{
+    position: absolute;
+    top: 110vh;
+    width: 100vw;
+    height: 300vh;
+    background-color: rgb(5, 5, 5);
+}
+    #MP_Shadow{
+        position: absolute;
+        top: 0%;
+        transform: translateY(-100%);
+        width: 100vw;
+        height: 5%;
+        background-image: linear-gradient(0deg, rgb(5, 5, 5) 35%, transparent 100%);
+    }
+
+    #MP_BottomLinks{
+        position: absolute;
+        transform: translateY(-250%);
+        width: 100vw;
+        height: 10vh;
+    }
+        #MP_BL_Left{
+            position: absolute;
+            left: 0%;
+            height: 100%;
+            width: 24vw;
+            display: flex;
+            flex-direction: row;
+            animation: IdleFloat 6s ease-in-out infinite;
+        }
+            #MP_BL_Left_Flightsimto{
+                margin-left: 3vw;
+                background-image: url(./Photos/Logos/Flightsim.to.png);
+            }
+            #MP_BL_Left_SimMarket{ background-image: url(./Photos/Logos/Simmarket.png); }
+            #MP_BL_Left_iniBuilds{ background-image: url(./Photos/Logos/IniBuilds.png); }
+
+
+        #MP_BL_Right{
+            position: absolute;
+            right: 0%;
+            height: 100%;
+            width: 24vw;
+            display: flex;
+            flex-direction: row;
+            animation: IdleFloat 6s ease-in-out infinite;
+        }
+        #MP_BL_Right_Gmail{
+            margin-left: 2vw;
+            background-image: url(./Photos/Logos/Gmail.png);
+        }
+        #MP_BL_Right_Instagram{ background-image: url(./Photos/Logos/Instagram.png); }
+        #MP_BL_Right_Discord{background-image: url(./Photos/Logos/Discord.png); }
+
+    .MP_BL_Icons{
+        flex: auto;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        animation: Icons_Hover_Exit 0.2s linear forwards; 
+        cursor: pointer;
+    }.MP_BL_Icons:hover{
+        animation: Icons_Hover 0.2s linear forwards; 
+    }
+
+    @keyframes IdleFloat{
+        0% {
+            transform: translateY(0%);
+        }
+        50% {
+            transform: translateY(-10%);
+        }
+        100% {
+            transform: translateY(0%);
+        }
+    }
+
+    @keyframes Icons_Hover{
+        0% {transform: translateY(-50%);}
+        100% {transform: translateY(-80%);}
+    }
+    @keyframes Icons_Hover_Exit{
+        0% {transform: translateY(-80%);}
+        100% {transform: translateY(-50%);}
+    }
+
+
+    #AboutMe_Box{
+        position: relative; 
+        margin-top: 5vh;
+        width: 90vw; margin-left: 5vw; 
+        aspect-ratio: 3.5 / 1;
+        display: flex; align-items: center; justify-content: space-around;
+        /* background-color: aqua; */
+    }
+        #AboutMeTitle{
+            position: absolute; left: 0; top: 0; margin-left: 5vw;
+            font-family: "poppins.medium";
+            text-align: center;
+            font-size: 3vw;
+            color: white;
+        }
+        #AboutMeText{
+            position: absolute; left: 0; top: 4vw; margin-left: 5vw;
+            width: 50vw;
+            font-family: "poppins-thin";
+            text-align: left;
+            font-size: 1.3vw;
+            font-weight: 400;
+            color: white;
+        }
+        #AboutMeBold{
+            font-weight: 900;
+        }
+        #AboutMe_Icon{
+            height: 90%; aspect-ratio: 1 / 1;
+            background-image: url(./Photos/Logos/LivToAir_Logo_Light.png);
+            background-size: cover;
+            position: absolute; right: 0%; top: 5%; margin-right: 5vw;
+        }
+
+
+    #ExploreTheWorld{
+        position: relative;
+        margin-left: 50%; margin-top: 20vh;
+        transform: translateX(-50%);
+        font-family: "keep-calm";
+        text-align: center;
+        font-size: 2vw;
+        color: white;  
+    }
+    #ExploreTheWorld_Subtext{
+        position: relative;
+        margin-left: 50%; margin-top: 3vh;
+        transform: translateX(-50%);
+        text-align: center;
+        font-family: "poppins-thin";
+        font-size: 1.1vw;
+        color: white;  
+    }
+    #ProductsSelectorBox{
+        position: relative; 
+        margin-top: 7vh; margin-left: 50%;
+        transform: translateX(-50%);
+        width: 80vw; 
+        aspect-ratio: 4 / 1;
+        display: flex; align-items: center; justify-content: space-around;
+    }
+    .ProductsSelectorProducts{
+        height: 100%; width: 100%;
+        margin: 40px;
+        border-radius: 5%;
+        /* background-color: rgba(30, 30, 30, 0.22);  */
+        background-image: url(./Photos/Logos/SpotLight.png); background-size: cover;
+        border: 3px solid rgba(187, 187, 187, 0.141);
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        animation: Product_Hover_Exit 0.1s linear forwards; 
+        cursor: pointer;
+        display: table; overflow-x: hidden;
+    }.ProductsSelectorProducts:hover{
+        animation: Product_Hover 0.1s linear forwards; 
+    }
+    .ProductsSelectorProducts_Text{
+        position: relative;
+        margin-top: 5%; margin-left: 5%;
+        width: 90%;
+        text-align: center;
+        font-family: "keep-calm";
+        font-size: 1.9vw;
+        color: white;  
+    }
+    .ProductsSelectorProducts_Preview{
+        width: 100%; height: 100%;
+        position: relative;
+        display:table-cell;
+        vertical-align:bottom;
+    }
+    @keyframes Product_Hover {
+        0%{height: 100%; width: 100%;}
+        100%{height: 110%; width: 110%;}
+    }
+    @keyframes Product_Hover_Exit {
+        0%{height: 110%; width: 110%;}
+        100%{height: 100%; width: 100%;}
+    }
+
+    #ReviewsBox{
+        position: relative; 
+        margin-top: 5vh;
+        width: 100vw; 
+        aspect-ratio: 3.5 / 1;
+        display: flex; align-items: center; justify-content: space-around;
+        background-color: rgb(5, 5, 5);
+    }
+    #ReviewBoxTop{
+        position: absolute;
+        top: 0%; right: -100%; /* -100 right when starting anims*/
+        height: 50%; width: 100%;
+        /* background-color: white; */
+        text-align: center;
+        animation: ReviewsAnim 35s linear infinite;
+        animation-delay: -17.5s;
+        display: flex; justify-content: space-around; align-items: center;
+    }
+    #ReviewBoxTopCopy{
+        position: absolute;
+        right: 100%; top: 0%;
+        height: 50%; width: 100vw;
+        /* background-color: white; */
+        text-align: center;
+        animation: ReviewsAnim 35s linear infinite;
+        display: flex; justify-content: space-around; align-items: center;
+    }
+
+    #ReviewBoxBottom{
+        position: absolute;
+        bottom: 0%; right: -100%; /* -100 right when starting anims*/
+        height: 50%; width: 100%;
+        /* background-color: white; */
+        text-align: center;
+        animation: ReviewsAnim 33s linear infinite;
+        animation-delay: -16.5s;
+        display: flex; justify-content: space-around; align-items: center;
+    }
+    #ReviewBoxBottomCopy{
+        position: absolute;
+        right: 100%; bottom: 0%;
+        height: 50%; width: 100vw;
+        /* background-color: white; */
+        text-align: center;
+        animation: ReviewsAnim 33s linear infinite;
+        display: flex; justify-content: space-around; align-items: center;
+    }
+    @keyframes ReviewsAnim {
+        0%{right: -100%;}
+        100%{right: 100%;}
+    }
+        .Reviews{
+            position: relative;
+            height: 90%; aspect-ratio: 1.5 / 1;
+            background-color: #fff372;
+            border-radius: 20px;
+        }
+        .Reviews_Text{
+            position: relative;
+            margin-left: 5%; margin-top: 5%;
+            width: 90%;
+            text-align: left;
+            font-family: "poppins.medium";
+            font-size: 1vw;
+            color: black;  
+        }
+        .Reviews_Logo_FSto{
+            position: absolute;
+            width: 12%; aspect-ratio: 1 / 1;
+            border-radius: 50%;
+            background-image: url(./Photos/Logos/Flightsim.to.png);
+            background-size: contain; background-position: center;
+            bottom: 10%; left: 5%;
+        }
+        .Reviews_Logo_Simmarket{
+            position: absolute;
+            width: 12%; aspect-ratio: 1 / 1;
+            border-radius: 50%;
+            background-image: url(./Photos/Logos/Simmarket.png);
+            background-size: contain; background-position: center;
+            bottom: 10%; left: 5%;
+        }
+        .Reviews_Logo_Text{
+            position: absolute;
+            bottom: 18%; left: 18%;
+            text-align: center;
+            font-family: "poppins.light";
+            font-size: 0.8vw;
+            color: rgba(0, 0, 0, 0.7);
+        }
+        .Reviews_Logo_Product{
+            position: absolute;
+            bottom: 10%; left: 18%;
+            text-align: center;
+            font-family: "poppins.light";
+            font-size: 0.8vw;
+            color: rgba(0, 0, 0, 0.4);
+        }
+
+    #ContactPage{
+        padding-top: 10vh;
+        width: 100vw; height: 100vh;
+        background-color: rgb(5, 5, 5);
+        display: flex; justify-content: space-around; align-items: center;
+    }
+        .CP_Boxes{
+            width: 45%; height: 90%;
+            display: flex; justify-content: center; align-items: center; flex-direction: column;
+        }
+            #CP_L_Title{
+                position: relative; width: 100%;
+                text-align: center;
+                font-family: "keep-calm";
+                font-size: 4vw;
+                color: white
+            }
+            #CP_L_Text{
+                position: relative; width: 100%;
+                text-align: center;
+                font-family: "poppins-thin";
+                font-weight: 600;
+                font-size: 1.2vw;
+                color: white
+            }
+            #ContactMethodsBox{
+                position: relative; width: 100%; height: 60%;
+                margin-top: 2%;
+                display: flex; justify-content: center; align-items: center; flex-direction: column;
+            }
+                .ContactMethodsText{
+                    position: relative; width: 100%; margin-top: 5%;
+                    text-align: center;
+                    font-family: "poppins-thin";
+                    font-size: 1.3vw;
+                    color: white
+                }
+                .ContactMethodsBold{
+                    font-weight: bold;
+                }
+        #CP_Right{
+            border-radius: 20px; border: 1px rgba(71, 71, 71, 0.2) solid;
+            background-image: radial-gradient(rgb(15, 15, 15), rgb(13, 13, 13), rgb(8, 8, 8));
+            /* background-color: rgb(7, 7, 7); */
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(0, 0, 0, 0.32) 0px 2px 16px 0px;
+        }
+            #CP_R_Title{
+                position: relative; width: 100%; margin-top: 5%;
+                text-align: center;
+                font-family: "keep-calm";
+                font-size: 4vw;
+                color: white
+            }
+            #CP_R_InputsBox{
+                position: relative;
+                width: 100%; height: 75%;
+                display: flex; justify-content: space-around; align-items: center; flex-direction: column;
+            }
+                .CP_R_Inputs{
+                    position: relative;
+                    width: 70%;
+                    background-color: transparent;
+                    border: transparent; border-bottom: 2px rgb(84, 84, 84) solid;
+                    text-align: left;
+                    font-family: "poppins-thin";
+                    font-size: 1.3vw;
+                    color: white
+                }
+                #CP_R_InputsBox textarea {
+                    resize: none;
+                }
+                #CP_R_IB_SendBtn{
+                    background-color: transparent; border: transparent;
+                    text-align: center;
+                    font-family: "keep-calm";
+                    font-size: 2.1vw; padding: 0.2vw;
+                    color: white;
+                    cursor: pointer;
+                }#CP_R_IB_SendBtn:hover{
+                    transform: scale(1.1);
+                }
+
+
+/* Loading Page */
+#Loading_Page{
+    position: fixed;
+    width: 100vw; height: 100vh;
+    background-color: rgb(13, 13, 13);
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    visibility: hidden;
+}
+    #LoadingAnim{
+        width: 15vw; aspect-ratio: 1 / 1;
+        background-image: url(../../Photos/Logos/Loading.png);
+        background-size: contain;
+        animation: LoadingAnim 3s ease-in-out infinite;
+    }
+    @keyframes LoadingAnim {
+        0%{rotate: 0deg;}
+        100%{rotate: 360deg;}
+    }
+    #LoadingProfress{
+        margin-top: 5vh;
+        width: 30vw; aspect-ratio: 15 / 1;
+        background-image: linear-gradient(90deg, white 0% 0%,  rgba(0, 0, 0, 0.1) 0%);
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    }
