@@ -17,6 +17,7 @@ window.onload = function(){
     myVideo.addEventListener("click", () => {
         bool = true;
     });
+    SliderImagesStart();
 };
 
 
@@ -95,10 +96,12 @@ setInterval(function(){
 
 var Images = document.getElementsByClassName("Slider_Imgs");
 var SliderStep = 1, SliderMax = Images.length;
-for (var i = 1; i < Images.length; i++) {
-    Images[i].style.right = "-100%";
+function SliderImagesStart(){
+    for (var i = 1; i < Images.length; i++) {
+        Images[i].style.right = "-100%";
+    }
+    document.getElementById("S-image_" + (SliderStep + 1)).style.right = "-100%";
 }
-document.getElementById("S-image_" + (SliderStep + 1)).style.right = "-100%";
 
 function SliderRight(){
     if(SliderStep + 1 <= SliderMax){
