@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width">
     <title>LivToAir</title>
     <link rel="icon" href="./Photos/Logos/LivToAir_Logo_Dark.png" id="light-scheme-icon">
-    <link href="C8.css" rel="stylesheet" type="text/css" />
+    <link href="./Pages/XA42/xa42.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <div class="Pages">
         <section id="MainPage">
             <video id="Aircraft_Preview" loop muted>
-                <source src="../../Anims/C8_Product_Preview.webm" type="video/mp4">
+                <source src="./Anims/XA42_Product_Preview.webm" type="video/mp4">
             </video>
             <div id="Clickers_Box">
                 <div class="ClickerContainer" id="ClickSpot_1" onclick="UpdateState(this, 1)"><div class="Clicker"></div></div>
@@ -21,56 +20,44 @@
                 <div class="ClickerContainer" id="ClickSpot_4" onclick="UpdateState(this, 4)"><div class="Clicker"></div></div>
                 <div class="ClickerContainer" id="ClickSpot_5" onclick="UpdateState(this, 5)"><div class="Clicker"></div></div>
                 <div class="ClickerContainer" id="ClickSpot_6" onclick="UpdateState(this, 6)"><div class="Clicker"></div></div>
+                <div class="ClickerContainer" id="ClickSpot_7" onclick="UpdateState(this, 7)"><div class="Clicker"></div></div>
             </div>
-            <div id="MP_Title">Chevrolet Corvette C8</div>
+            <div id="MP_Title">XtremeAir Sbach 342</div>
             <div id="Info_Box">
-                <div id="Info">Main Info</div>
+                <div id="Info">The XtremeAir Sbach 342 (XA42) is a German high performance two-seat aerobatic and touring monoplane designed by Philipp Steinbach with Albert Mylius and built by XtremeAir <br> <br> It is the tandem version of the single-seater XtremeAir Sbach 300 (XA41) which was designed by the same team in in 2004. The XA42 received a type certificate from the European Aviation Safety Agency in March 2011. And in November 2012 it received its type certification through the FAA. <br> <br> The production of this plane was stopped at the beginning of the year 2021</div>
             </div>
 
-            <div id="HomeButton" onclick="openPage('../../index.html')"></div>
+            <div id="HomeButton" onclick="openPage('./')"></div> <!--Removed index.html-->
         </section>
         <section id="SecondPage">
-            <div id="Slider">
-                <img class="Slider_Imgs" id="S-image_1" src="../../Photos/C8/1.PNG">
-                <img class="Slider_Imgs" id="S-image_2" src="../../Photos/C8/3.PNG">
-                <img class="Slider_Imgs" id="S-image_3" src="../../Photos/C8/4.PNG">
-                <img class="Slider_Imgs" id="S-image_4" src="../../Photos/C8/5.PNG">
-                <img class="Slider_Imgs" id="S-image_5" src="../../Photos/C8/6.PNG">
-                <img class="Slider_Imgs" id="S-image_6" src="../../Photos/C8/7.PNG">
-                <img class="Slider_Imgs" id="S-image_7" src="../../Photos/C8/8.PNG">
-                <img class="Slider_Imgs" id="S-image_8" src="../../Photos/C8/9.PNG">
-                <img class="Slider_Imgs" id="S-image_9" src="../../Photos/C8/11.PNG">
-                <img class="Slider_Imgs" id="S-image_10" src="../../Photos/C8/17.PNG">
-                <div id="Slider_LeftBtn" onclick="SliderLeft()"></div>
-                <div id="Slider_RightBtn" onclick="SliderRight()"></div>
-
-            </div>
+            <iframe id="Trailer" src="https://www.youtube.com/embed/ZHVHY4pR8IQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div id="SP_Info_Page">
-                <div id="SP_IP_Title">Buy Chevrolet Corvette C8 For 9.99$</div>
+                <div id="SP_IP_Title">Buy The XtremeAir Sbach 342 For 16.99$</div>
                 <!-- <div id="SP_IP_Links">Flightsim.to: <a style="color: rgb(20, 106, 255);" href = "https://flightsim.to/product/xtremeair-sbach-342-xa42" target="_blank">flightsim.to/product/xtremeair-sbach-342-xa42</a> <br> SimMarket: <a style="color: rgb(20, 106, 255);" href = "https://secure.simmarket.com/livtoair-xtremeair-sbach-342-(xa42)-msfs.phtml" target="_blank">simmarket.com/livtoair-xtremeair-sbach-342-(xa42)-msfs</a> <br> iniBuilds: <a style="color: rgb(20, 106, 255);" href = "https://store.inibuilds.com/products/livtoair-xtremeair-sbach-342-msfs" target="_blank">store.inibuilds.com/products/livtoair-xtremeair-sbach-342-msfs</a> <br> The XA42 Is Also Available In The MSFS Marketplace For PC And XBOX!</div> -->
                 <div id="SP_IP_IconsBox">
                     <div id="SP_IP_IconsContainer">
                         <div id="SP_IP_IB_FlightsimTO" class="SP_IP_IB_Icons" onclick="window.open('https://flightsim.to/product/xtremeair-sbach-342-xa42', '_blank');"></div>
                         <div id="SP_IP_IB_SimMarket" class="SP_IP_IB_Icons" onclick="window.open('https://secure.simmarket.com/livtoair-xtremeair-sbach-342-(xa42)-msfs.phtml', '_blank');"></div>
+                        <div id="SP_IP_IB_iniBuilds" class="SP_IP_IB_Icons" onclick="window.open('https://store.inibuilds.com/products/livtoair-xtremeair-sbach-342-msfs', '_blank');"></div>
                     </div>
                 </div>
-                <div id="SP_IP_Links">The Corvette C8 Is Also Available In The MSFS Marketplace For PC And XBOX!</div>
+                <div id="SP_IP_Links">The XA42 Is Also Available In The MSFS Marketplace For PC And XBOX!</div>
                 <div id="OtherProjectsBox">
-                    <div class="ProductsSelectorProducts" onclick="openPage('../../Pages/XA42/xa42.html')">
-                        <div class="ProductsSelectorProducts_Text">XtremeAir Sbach <br> 342</div>
+                    <div class="ProductsSelectorProducts" onclick="openPage('./C8')">  <!--Removed .html-->
+                        <div class="ProductsSelectorProducts_Text">Chevrolet Corvette <br> C8</div>
                         <video class="ProductsSelectorProducts_Preview" loop muted onmouseenter='VideoController(true, this)' onmouseleave='VideoController(false, this)'>
-                            <source src="../../Anims/XA42_Anim.webm" type="video/mp4">
+                            <source src="./Anims/C8_Anim.webm" type="video/mp4">
                         </video>
                     </div>
                     <div class="ProductsSelectorProducts">
                         <div class="ProductsSelectorProducts_Text">Mercedes C63 <br> Coupe</div>
                         <video class="ProductsSelectorProducts_Preview" loop muted onmouseenter='VideoController(true, this)' onmouseleave='VideoController(false, this)'>
-                            <source src="../../Anims/C63_Anim.webm" type="video/mp4">
+                            <source src="./Anims/C63_Anim.webm" type="video/mp4">
                         </video>
                     </div>
                 </div>
                 <video id="Aircraft_Preview_2" loop muted autoplay>
-                    <source src="../../Anims/C8_Anim.webm" type="video/mp4">
+                    <source src="./Anims/XA42_Anim.webm" type="video/mp4">
                 </video>
             </div>
         </section>
@@ -80,9 +67,9 @@
             <div id="LoadingProfress"></div>
         </div>
     </div>
-    <script type="text/javascript" src="../../ThemeCheck.js"></script>
-    <script type="text/javascript" src="../../Loading.js"></script>
-    <script type="text/javascript" src="../../speedCheck.js"></script>
-    <script type="text/javascript" src="C8.js"></script>
+    <script type="text/javascript" src="./ThemeCheck.js"></script>
+    <script type="text/javascript" src="./Loading.js"></script>
+    <script type="text/javascript" src="./speedCheck.js"></script>
+    <script type="text/javascript" src="./Pages/XA42/xa42.js"></script>
 </body>
 </html>
