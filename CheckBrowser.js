@@ -15,11 +15,18 @@ function detectMob() {
 }
 
 
-window.addEventListener("orientationchange", (event) => {
+// window.addEventListener("orientationchange", (event) => {
+//     setTimeout(() => {
+//         checkAspectRatio();
+//     }, 50);
+// });
+
+window.addEventListener('resize', onResize)
+function onResize() {
     setTimeout(() => {
         checkAspectRatio();
     }, 50);
-});
+}
 
 
 var AspectRatio = window.screen.width / window.screen.height
