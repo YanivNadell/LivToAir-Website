@@ -335,13 +335,6 @@ body{
             right: 0%; bottom: 0%;
             pointer-events: none;
         }
-        #Aircraft_Preview_2_Logo{
-            width: 50vw; aspect-ratio: 10 / 1;
-            position: absolute;
-            right: 0%; bottom: 2vh;
-            background-image: url(../../Photos/Logos/LivToAir_White.png);
-            background-size: contain; background-repeat: no-repeat; background-position: center;
-        }
 
 
 
