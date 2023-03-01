@@ -30,7 +30,7 @@
             <div id="HomeButton" onclick="openPage('./')"></div>  <!--Removed index.html-->
         </section>
         <section id="SecondPage">
-            <div id="Slider">
+            <div id="Slider" style="overflow:hidden">
                 <img class="Slider_Imgs" id="S-image_1" src="./Photos/C8/1.PNG">
                 <img class="Slider_Imgs" id="S-image_2" src="./Photos/C8/3.PNG">
                 <img class="Slider_Imgs" id="S-image_3" src="./Photos/C8/4.PNG">
@@ -74,12 +74,19 @@
                 </video>
             </div>
         </section>
+        <div id="Wrong_AspectRatio_Page">
+            <div id="WAR_box">
+                <div id="WAR_Title">Warning!</div>
+                <div id="WAR_Text">Your device aspect ratio is not supported! <br> This website does not support vertical orientation. <br> try rotating your device.</div>
+            </div>
+        </div>
         <!-- Loading Page -->
         <div id="Loading_Page">
             <div id="LoadingAnim"></div>
             <div id="LoadingProfress"></div>
         </div>
     </div>
+    <script type="text/javascript" src="CheckBrowser.js"></script>
     <script type="text/javascript" src="./ThemeCheck.js"></script>
     <script type="text/javascript" src="./Loading.js"></script>
     <script type="text/javascript" src="./speedCheck.js"></script>
