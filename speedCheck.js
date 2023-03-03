@@ -48,7 +48,7 @@ else{
     console.log("Slow")
 }
 
-if(PerformenceMode){
+if(PerformenceMode || detectMob() == true){
     deleteAnims();
     //set performence level
     if(TestsAvg > targetSpeed * 1.4) PerformenceLevel++
@@ -60,13 +60,19 @@ if(PerformenceMode){
 }
 
 function deleteAnims(){
-    if(window.location.href.includes("xa42.html")){
+    if(window.location.href.includes("xa42")){
         const Clickerers = document.querySelectorAll('.Clicker');
         Clickerers.forEach(Clicker => { Clicker.style.animation = 'none'; });
         document.querySelector('#Aircraft_Preview_2').pause();
         document.querySelector('#SP_IP_IconsContainer').style.animation = 'none';   
     }
-    else if(window.location.href.includes("index.html")){
+    if(window.location.href.includes("C8")){
+        const Clickerers = document.querySelectorAll('.Clicker');
+        Clickerers.forEach(Clicker => { Clicker.style.animation = 'none'; });
+        document.querySelector('#Aircraft_Preview_2').pause();
+        document.querySelector('#SP_IP_IconsContainer').style.animation = 'none';   
+    }
+    else if(!window.location.href.includes("xa42") && !window.location.href.includes("C8")){
         document.querySelector('#MP_BL_Left').style.animation = 'none';   
         document.querySelector('#MP_BL_Right').style.animation = 'none';   
     }

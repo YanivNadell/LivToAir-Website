@@ -37,12 +37,12 @@ const VideoController = function(isHovering, videoElement)
 }
 
 
-const infos =   ["All doors are animated", 
-                "Liveries",
-                "Fully animated and functional cockpit",
-                "Custom Hud",
-                "Enigne",
-                "Main Info"];
+const infos =   ["The Chevrolet Corvette C8 comes with fully animated driver and passanger doors, animated trunk and hood, working light system and working turning signals", 
+                "The Chevrolet Corvette C8 comes with 10 liveries! \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 Blue, Orange, Red, White and Yellow. And all colors comes with a sport stripe version.",
+                "The interior of the Chevrolet Corvette C8 is fully animated and highly modelled, \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 including a glovebox and an interior storage with a working car key.",
+                "The Chevrolet Corvette C8 comes with a custom hud screen including: \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 Selecter Gear, Speed, RPM, G-Force, Distance Traveled, Fuel Spent and Run Time",
+                "The Chevrolet Corvette C8 uses a new version of the LS-based GM small-block engine derived from the Chevrolet Corvette C7 LT1, now called the LT2. \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 The new naturally aspirated 6.2 L V8 is rated at 490 hp at 6,450 rpm and 465 lb⋅ft of torque at 5,150 rpm",
+                "The Chevrolet Corvette C8 is the eighth generation of the Corvette sports car manufactured by American automobile manufacturer Chevrolet. \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 It is the first mid-engine Corvette since the model's introduction in 1953, differing from the traditional front-engine design. \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 The C8 was announced in April 2019, Production officially began on February 3, 2020"];
 let currentStepValue = 0
 function UpdateState(ele, step){
     var delay = 0; 

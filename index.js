@@ -43,6 +43,22 @@ function openPage(pageUrl){
     window.location.replace(pageUrl);
 }
 
+
+let GmailIcon = document.getElementById("MP_BL_Right_Gmail");
+let GmailBox = document.getElementById("MP_BL_Right_Gmail_Popup");
+GmailIcon.addEventListener("mouseover", function() {
+    GmailBox.style.visibility = "visible"
+    GmailBox.style.animation = "none"
+    GmailBox.style.animation = "Gmail_Popup_Hover 0.2s linear forwards"
+});
+GmailIcon.addEventListener("mouseleave", function() {
+    GmailBox.style.animation = "none"
+    GmailBox.style.animation = "Gmail_Popup_Hover_Exit 0.2s linear forwards"
+    setTimeout(() => {
+        GmailBox.style.visibility = "hidden"
+    }, 200);
+});
+
 //Contact Form
 const btn = document.getElementById('CP_R_IB_SendBtn');
 var isValidForm = false;

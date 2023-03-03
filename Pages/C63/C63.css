@@ -1,0 +1,432 @@
+/* Hide Scroll bar */
+/* html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 0, 0, 0);
+} */
+
+::-webkit-scrollbar{
+    width: 0.5vw;
+}
+::-webkit-scrollbar:hover{
+    width: 0.6vw;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background:#ffffff url(../../Photos/Logos/Scrollbar_Thumb.png) no-repeat;
+    background-size: 90%;  
+    background-position: center;
+    display: block;
+    border-bottom-left-radius: 25vw;
+    border-top-left-radius: 25vw;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: overlay;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+@font-face {
+    font-family: "Aharoni-Bold";
+    src: url("../../Fonts/Aharoni\ Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "keep-calm";
+    src: url("../../Fonts/keep-calm.regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "poppins-thin";
+    src: url("../../Fonts/poppins.thin.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "poppins.medium";
+    src: url("../../Fonts/poppins.semibold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "poppins.light";
+    src: url("../../Fonts/poppins.light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.Pages{
+    width: 100%; height: 100%;
+    /* scroll-snap-type: y mandatory;
+    overflow-y: scroll; */
+}
+#MainPage{
+    position: fixed;
+    /* display: flex; justify-content: center; align-items: center; */
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(19, 19, 19);
+    scroll-snap-align: start;
+}
+    #Aircraft_Preview{
+        width: 50vw;
+        position: absolute;
+        right: 0%; bottom: 0%;
+        pointer-events: none;
+    }
+    #Clickers_Box{
+        width: 50vw; position: absolute;
+        aspect-ratio: 2 / 1;
+        right: 0%; bottom: 0%;
+    }
+    .ClickerContainer{
+        position: absolute;
+        width: 2.3%; aspect-ratio: 1 / 1;
+        transform: translate(-35%, -35%);
+        animation: ClickerHover_Exit 0.1s linear forwards; 
+    }.ClickerContainer:hover{
+        animation: ClickerHover 0.1s linear forwards; 
+    }
+    @keyframes ClickerHover {
+        0%{width: 2.3%; transform: translate(-35%, -10%);}
+        100%{width: 2.99%; transform: translate(-35%, -10%);}
+    }
+    @keyframes ClickerHover_Exit {
+        0%{width: 2.99%; transform: translate(-35%, -10%);}
+        100%{width: 2.3%; transform: translate(-35%, -10%);}
+    }
+    .Clicker{
+        width: 100%; height: 100%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(0, 0, 255);
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: rgba(37, 37, 255, 0.4) 0px 0px 0px 5px,
+                    rgba(87, 87, 255, 0.2) 0px 0px 0px 13px,
+                    rgba(121, 121, 255, 0.08) 0px 0px 10px 30px;
+        animation: ClickerIdle 4s ease-in-out infinite;
+    }
+    @keyframes ClickerIdle {
+        0%{width: 100%; height: 100%;}
+        50%{width: 160%; height: 160%;}
+        100%{width: 100%; height: 100%;}
+    }
+            #ClickSpot_1{
+                left: 44%; top: 40%;
+            }
+            #ClickSpot_2{
+                visibility: hidden;
+                left: 40%; top: 47%;
+            }
+            #ClickSpot_3{
+                visibility: hidden;
+                left: 49.5%; top: 34%;
+            }
+            #ClickSpot_4{
+                visibility: hidden;
+                left: 30%; top: -20%;
+            }
+            #ClickSpot_5{
+                visibility: hidden;
+                left: 30%; top: 45%;
+            }
+
+    #MP_Title{
+        position: absolute;
+        left: 2%; top: 7vh;
+        font-family: "Aharoni-Bold";
+        font-size: 4vw;
+        color: white;  
+        text-shadow: 0 1px 0 #ccc, 
+                    0 2px 0 #c9c9c9,
+                    0 3px 0 #bbb,
+                    0 4px 0 #b9b9b9,
+                    0 5px 0 #aaa,
+                    0 6px 1px rgba(0,0,0,.1),
+                    0 0 5px rgba(0,0,0,.1),
+                    0 1px 3px rgba(0,0,0,.3),
+                    0 3px 5px rgba(0,0,0,.2),
+                    0 5px 10px rgba(0,0,0,.25),
+                    0 10px 10px rgba(0,0,0,.2),
+                    0 20px 20px rgba(0,0,0,.15);
+    }
+    #Info_Box{
+        position: absolute;
+        left: 2%; top: 20vh;
+        width: 35vw; aspect-ratio: 1.2 / 1;
+    }
+    #Info{
+        position: absolute;
+        left: 0%; top: 0%;
+        font-family: "poppins-thin";
+        font-size: 1.3vw;
+        color: white;  
+    }
+    @keyframes textOpacity {
+        0%{opacity: 100%;}
+        50%{opacity: 0%;}
+        100%{opacity: 100%;}
+    }
+
+    #HomeButton{
+        width: 2.1vw; aspect-ratio: 1 / 1;
+        background-image: url(../../Photos/Logos/Home.png);
+        background-size: cover;
+        position: absolute; right: 35px; top: 35px;
+        transform: translate(50%, -50%);
+        margin: 30px;
+        animation: HpmeBtnHover_Exit 0.2s linear forwards; 
+        cursor: pointer;
+    }#HomeButton:hover{
+        animation: HpmeBtnHover 0.2s linear forwards; 
+    }
+    @keyframes HpmeBtnHover {
+        0%{width: 2.1vw;}
+        100%{width: 2.5vw;}
+    }
+    @keyframes HpmeBtnHover_Exit {
+        0%{width: 2.5vw;}
+        100%{width: 2.1vw;}
+    }
+
+#SecondPage{
+    position: absolute;
+    top: 100vh;
+    /* display: flex; justify-content: center; align-items: center; */
+    width: 100vw;
+    height: 130vh;
+    background-color: #0c0c0c;
+    scroll-snap-align: start;
+    box-shadow: #0c0c0c 0px 0px 0px 5px, #0c0c0c 0px 0px 20px 25px;
+}
+    #Slider{
+        position: relative;
+        width: 100vw;
+        aspect-ratio: 19.2 / 9;
+        box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 4px, rgba(255, 255, 255, 0.3) 0px 7px 13px 2px, rgba(255, 255, 255, 0.2) 0px -3px 0px inset;
+    }
+        .Slider_Imgs{
+            object-fit: cover;
+            width: 100%; height: 100%;
+            position: absolute;
+        }
+        #Slider_LeftBtn{
+            width: 3vw; aspect-ratio: 1 / 1; margin-left: 2vw;
+            position: absolute; top: 50%;
+            transform: translateY(-50%);
+            background-image: url(../../Photos/Logos/LeftArrow.png);
+            background-size: cover;
+            background-color: rgba(255, 255, 255, 0.15); border-radius: 50%;
+            cursor: pointer; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            animation: SliderArrows_Hover_Exit 0.1s linear forwards; 
+            visibility: hidden;
+        }#Slider_LeftBtn:hover{
+            animation: SliderArrows_Hover 0.1s linear forwards; 
+        }
+        #Slider_RightBtn{
+            width: 3vw; aspect-ratio: 1 / 1; margin-right: 2vw;
+            position: absolute; top: 50%; right: 0%;
+            transform: translateY(-50%);
+            background-image: url(../../Photos/Logos/RightArrow.png);
+            background-size: cover;
+            background-color: rgba(255, 255, 255, 0.15); border-radius: 50%;
+            cursor: pointer; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            animation: SliderArrows_Hover_Exit 0.1s linear forwards; 
+        }
+        #Slider_RightBtn:hover{
+            animation: SliderArrows_Hover 0.1s linear forwards; 
+        }
+        @keyframes SliderArrows_Hover{
+            0% {width: 3vw;}
+            100% {width: 3.2vw;}
+        }
+        @keyframes SliderArrows_Hover_Exit{
+            0% {width: 3.2vw;}
+            100% {width: 3vw;}
+        }
+
+
+    #SP_Info_Page{
+        position: relative;
+        height: 98vh; width: 100vw;
+        background-color: #0c0c0c;
+    }
+        #SP_IP_Title{
+            font-family: "keep-calm";
+            font-size: 2.5vw;
+            color: white;
+            margin: 40px;            	
+            text-shadow: 0 1px 0 #ccc, 
+                        0 2px 0 #c9c9c9,
+                        0 3px 0 #bbb;
+        }
+        #SP_IP_IconsBox{
+            margin-left: 40px; margin-top: 120px; 
+            width: 45vw; height: 15%;
+            display: flex; justify-content: center;
+        }
+            #SP_IP_IconsContainer{
+                width: 80%; height: 100%;
+                display: flex; align-items: center; justify-content: space-around;
+                animation: IdleFloat 6s ease-in-out infinite;
+            }
+            @keyframes IdleFloat{
+                0% {transform: translateY(0%);}
+                50% {transform: translateY(-10%);}
+                100% {transform: translateY(0%);}
+            }
+                .SP_IP_IB_Icons{
+                    cursor: pointer;
+                    height: 100%; aspect-ratio: 1 / 1;
+                    background-size: cover;
+                    margin: 10px;
+                    animation: Icons_Hover_Exit 0.2s linear forwards; 
+                }.SP_IP_IB_Icons:hover{
+                    animation: Icons_Hover 0.2s linear forwards; 
+                }
+                @keyframes Icons_Hover{
+                    0% {transform: translateY(0);}
+                    100% {transform: translateY(-20%);}
+                }
+                @keyframes Icons_Hover_Exit{
+                    0% {transform: translateY(-20%);}
+                    100% {transform: translateY(0%);}
+                }
+                #SP_IP_IB_FlightsimTO{background-image: url(../../Photos/Logos/Flightsim.to.png);}
+                #SP_IP_IB_SimMarket{background-image: url(../../Photos/Logos/Simmarket.png);}
+                #SP_IP_IB_iniBuilds{background-image: url(../../Photos/Logos/IniBuilds.png);}
+        #SP_IP_Links{
+            font-family: "poppins-thin";
+            font-size: 1.3vw; 
+            color: white; font-weight: 600;
+            text-align: center;
+            margin-left: 40px; margin-top: 50px; width: 45vw;
+        }
+        #OtherProjectsBox{
+            position: absolute;
+            width: 40vw; aspect-ratio: 15 / 1;
+            /* background-color: rgba(255, 255, 255, 1); */
+            bottom: 20px; margin-left: 110px;
+            display: flex; align-items: center; justify-content: space-around;
+        }
+            .ProductsSelectorProducts{
+                height: 50%; width: 80%;
+                margin: 40px;
+                border-radius: 5%;
+                /* background-color: rgba(30, 30, 30, 0.22);  */
+                background-image: url(./Photos/Logos/SpotLight.png); background-size: cover;
+                border: 3px solid rgba(187, 187, 187, 0.141);
+                box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                animation: Product_Hover_Exit 0.1s linear forwards; 
+                cursor: pointer;
+                display: table; overflow-x: hidden;
+            }.ProductsSelectorProducts:hover{
+                animation: Product_Hover 0.1s linear forwards; 
+            }
+            .ProductsSelectorProducts_Text{
+                position: relative;
+                margin-top: 5%; margin-left: 5%;
+                width: 90%;
+                text-align: center;
+                font-family: "keep-calm";
+                font-size: 1.3vw;
+                color: white;  
+            }
+            .ProductsSelectorProducts_Preview{
+                width: 100%; height: 100%;
+                position: relative;
+                display:table-cell;
+                vertical-align:bottom;
+            }
+            @keyframes Product_Hover {
+                0%{height: 80%; width: 80%;}
+                100%{height: 90%; width: 90%;}
+            }
+            @keyframes Product_Hover_Exit {
+                0%{height: 90%; width: 90%;}
+                100%{height: 80%; width: 80%;}
+            }
+
+        #Aircraft_Preview_2{
+            width: 50vw;
+            position: absolute;
+            right: 0%; bottom: 0%;
+            pointer-events: none;
+        }
+
+
+#Wrong_AspectRatio_Page{
+    position: fixed;
+    width: 100vw; height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(50px);
+    visibility: hidden;
+    display: flex; justify-content: center; align-items: center;
+}
+    #WAR_box{
+        width: 75vw; aspect-ratio: 1.7 / 1;
+        background-color: rgb(9, 9, 9);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border-radius: 10%; border: 1px solid rgba(171, 171, 171, 0.1);
+        display: flex; justify-content: center; align-items: center; flex-direction: column;
+    }
+    #WAR_Title{
+        position: relative;
+        text-align: center;
+        font-family: "keep-calm";
+        font-size: 6.5vw; margin-top: 2vh;
+        color: rgb(255, 255, 255);
+    }
+    #WAR_Text{
+        width: 90%;
+        position: relative;
+        text-align: center;
+        font-family: "poppins-thin";
+        font-size: 4vw; margin-top: 2vh;
+        color: rgb(255, 255, 255);
+    }
+        
+
+
+
+
+/* Loading Page */
+#Loading_Page{
+    position: fixed;
+    width: 100vw; height: 100vh;
+    background-color: rgb(13, 13, 13);
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    visibility: hidden;
+}
+    #LoadingAnim{
+        width: 15vw; aspect-ratio: 1 / 1;
+        background-image: url(../../Photos/Logos/Loading.png);
+        background-size: contain;
+        animation: LoadingAnim 3s ease-in-out infinite;
+    }
+    @keyframes LoadingAnim {
+        0%{rotate: 0deg;}
+        100%{rotate: 360deg;}
+    }
+    #LoadingProfress{
+        margin-top: 5vh;
+        width: 30vw; aspect-ratio: 15 / 1;
+        background-image: linear-gradient(90deg, white 0% 0%,  rgba(0, 0, 0, 0.1) 0%);
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    }
