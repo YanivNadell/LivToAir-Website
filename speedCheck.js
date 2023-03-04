@@ -1,4 +1,4 @@
-console.log("Speed Test Started");
+// console.log("Speed Test Started");
 var target = 45000000, current = 0; //set target and current
 var test1, test2, TestsAvg;
 var TestingPerformance, testNumber = 0;
@@ -13,7 +13,7 @@ while(TestingPerformance){
         };
         const check1_Time2 = performance.now(); //end timer
         test1 = check1_Time2 - check1_Time1; //culc test time
-        console.log(`Check Number 1 Took ${(test1).toFixed(3)} ms`);
+        // console.log(`Check Number 1 Took ${(test1).toFixed(3)} ms`);
     
         //check 2
         current = 0; //reset current
@@ -23,7 +23,7 @@ while(TestingPerformance){
         };
         const check2_Time2 = performance.now(); //start timer
         test2 = check2_Time2 - check2_Time1; //culc test time
-        console.log(`Check Number 2 Took ${(test2).toFixed(3)} ms`);
+        // console.log(`Check Number 2 Took ${(test2).toFixed(3)} ms`);
 
         testNumber++;
     }
@@ -31,21 +31,21 @@ while(TestingPerformance){
     
     //results
     if(Math.max(test1, test2) - Math.min(test1, test2) <= 30 || testNumber >= 15){ //if 2 tests are more them 30ms appart or test number passed 15
-        console.log("Test is syncrinize")
+        // console.log("Test is syncrinize")
         TestingPerformance = false; //exit while loop
     }
 }
 TestsAvg = ((test1 + test2) / 2).toFixed(3); //culc avg
-console.log(`avg of tests: ${TestsAvg}ms`);
+// console.log(`avg of tests: ${TestsAvg}ms`);
 
 //set performance mode
 var targetSpeed = 120, PerformenceMode = false, PerformenceLevel = 0;
 if(TestsAvg < targetSpeed){
-    console.log("Preformence Mode Off")
+    // console.log("Preformence Mode Off")
 }
 else{
     PerformenceMode = true;
-    console.log("Slow")
+    // console.log("Slow")
 }
 
 if(PerformenceMode || detectMob() == true){
@@ -56,7 +56,7 @@ if(PerformenceMode || detectMob() == true){
     if(TestsAvg > targetSpeed * 2.2) PerformenceLevel++
     if(TestsAvg > targetSpeed * 2.7) PerformenceLevel++
     if(TestsAvg > targetSpeed * 3) PerformenceLevel++
-    console.log("Performens Level: " + PerformenceLevel)
+    // console.log("Performens Level: " + PerformenceLevel)
 }
 
 function deleteAnims(){
@@ -72,7 +72,13 @@ function deleteAnims(){
         document.querySelector('#Aircraft_Preview_2').pause();
         document.querySelector('#SP_IP_IconsContainer').style.animation = 'none';   
     }
-    else if(!window.location.href.includes("xa42") && !window.location.href.includes("C8")){
+    if(window.location.href.includes("C63")){
+        const Clickerers = document.querySelectorAll('.Clicker');
+        Clickerers.forEach(Clicker => { Clicker.style.animation = 'none'; });
+        document.querySelector('#Aircraft_Preview_2').pause();
+        document.querySelector('#SP_IP_IconsContainer').style.animation = 'none';   
+    }
+    else if(!window.location.href.includes("xa42") && !window.location.href.includes("C8") && !window.location.href.includes("C63")){
         document.querySelector('#MP_BL_Left').style.animation = 'none';   
         document.querySelector('#MP_BL_Right').style.animation = 'none';   
     }
@@ -80,4 +86,4 @@ function deleteAnims(){
     console.log("Preformence Mode On")
 }
 
-console.log("Speed Test Ended")
+// console.log("Speed Test Ended")

@@ -43,10 +43,17 @@ const infos =   ["The Chevrolet Corvette C8 comes with fully animated driver and
                 "The Chevrolet Corvette C8 comes with a custom hud screen including: \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 Selecter Gear, Speed, RPM, G-Force, Distance Traveled, Fuel Spent and Run Time",
                 "The Chevrolet Corvette C8 uses a new version of the LS-based GM small-block engine derived from the Chevrolet Corvette C7 LT1, now called the LT2. \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 The new naturally aspirated 6.2 L V8 is rated at 490 hp at 6,450 rpm and 465 lb⋅ft of torque at 5,150 rpm",
                 "The Chevrolet Corvette C8 is the eighth generation of the Corvette sports car manufactured by American automobile manufacturer Chevrolet. \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 It is the first mid-engine Corvette since the model's introduction in 1953, differing from the traditional front-engine design. \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 The C8 was announced in April 2019, Production officially began on February 3, 2020"];
+const infoTitles =   ["Exterior:",
+                    "Liveries:",
+                    "Interior:",
+                    "Hud:",
+                    "Engine:",
+                    "Main Info:"];
 let currentStepValue = 0
 function UpdateState(ele, step){
     var delay = 0; 
     const info = document.getElementById("Info");
+    const infoTitle = document.getElementById("Info_Title");
     ele.style.visibility = "hidden";
     if(step == 1){ currentStepValue = 0.7; delay = 1400;}
     if(step == 2){ currentStepValue = 1.2; delay = 1100;}
@@ -66,11 +73,18 @@ function UpdateState(ele, step){
         if(step + 1 == 7) eval("ClickSpot_1").style.visibility = "visible"; //8 = steps + 1
         else eval("ClickSpot_" + ++step).style.visibility = "visible";
         info.style.animation = "textOpacity 1s linear forwards";
+        infoTitle.style.animation = "textOpacity 1s linear forwards";
         if(currentStepValue == 0) setTimeout(() => { info.textContent = infos[5]; }, 500);  //max step - 1 
-        else setTimeout(() => { info.textContent = infos[step - 2]; }, 500);
+        if(currentStepValue == 0) setTimeout(() => { infoTitle.textContent = infoTitles[5]; }, 500);  //max step - 1 
+        else setTimeout(() => { 
+            info.textContent = infos[step - 2]; 
+            infoTitle.textContent = infoTitles[step - 2]; 
+        }, 500);
         setTimeout(() => { 
             info.style.animation = 'none';
             info.style.animation = null;
+            infoTitle.style.animation = 'none';
+            infoTitle.style.animation = null;
         }, 1000);
     }, delay);
 }

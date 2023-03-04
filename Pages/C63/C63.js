@@ -42,10 +42,16 @@ const infos =   ["The Mercedes C63 Coupe has a 4.0-litre V8 engine impresses wit
                 "The Mercedes C63 Coupe includes an highly detailed and fully animated interior with a working hud screen displaying the speed and a working navigation screen.",
                 "The Mercedes C63 Coupe comes with fully animated exterior model with a working passanger and trunk doors.",
                 "The Mercedes C63 Coupe stand for performance at the very highest level that can be seen and experienced. High-tech components, some of which come from motorsports, and a progressive tuning take their power to the road. Their extreme dynamics can be recognized in every detail – with the facelift the dominant design has been further sharpened and now presents itself in a manner more striking and expressive than ever. And in the interior, too, the AMG feeling is perceptible in each and every detail – the result is a perfect fusion between first-class materials and sporty ambience."];
+const infoTitles =   ["Engine:",
+                    "Liveries:",
+                    "Interior:",
+                    "Exterior:",
+                    "Main Info:"];
 let currentStepValue = 0
 function UpdateState(ele, step){
     var delay = 0; 
     const info = document.getElementById("Info");
+    const infoTitle = document.getElementById("Info_Title");
     ele.style.visibility = "hidden";
     if(step == 1){ currentStepValue = 0.3; delay = 800;}
     if(step == 2){ currentStepValue = 1.0; delay = 1500;}
@@ -64,11 +70,18 @@ function UpdateState(ele, step){
         if(step + 1 == 6) eval("ClickSpot_1").style.visibility = "visible"; //8 = steps + 1
         else eval("ClickSpot_" + ++step).style.visibility = "visible";
         info.style.animation = "textOpacity 1s linear forwards";
+        infoTitle.style.animation = "textOpacity 1s linear forwards";
         if(currentStepValue == 0) setTimeout(() => { info.textContent = infos[4]; }, 500);  //max step - 1 
-        else setTimeout(() => { info.textContent = infos[step - 2]; }, 500);
+        if(currentStepValue == 0) setTimeout(() => { infoTitle.textContent = infoTitles[4]; }, 500);  //max step - 1 
+        else setTimeout(() => { 
+            info.textContent = infos[step - 2];
+            infoTitle.textContent = infoTitles[step - 2];
+        }, 500);
         setTimeout(() => { 
             info.style.animation = 'none';
             info.style.animation = null;
+            infoTitle.style.animation = 'none';
+            infoTitle.style.animation = null;
         }, 1000);
     }, delay);
 }

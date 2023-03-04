@@ -178,9 +178,16 @@ body{
         left: 2%; top: 20vh;
         width: 35vw; aspect-ratio: 1.2 / 1;
     }
+    #Info_Title{
+        position: absolute;
+        left: 0%; top: -2%;
+        font-family: "poppins.medium";
+        font-size: 2vw;
+        color: white;  
+    }
     #Info{
         position: absolute;
-        left: 0%; top: 0%;
+        left: 0%; top: 6%;
         font-family: "poppins-thin";
         font-size: 1.3vw;
         color: white;  
