@@ -1,0 +1,2126 @@
+[
+  {
+    "CountryCode": "DZ",
+    "Name": "Africa/Algiers",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+01:00"
+  },
+  {
+    "CountryCode": "GW",
+    "Name": "Africa/Bissau",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+00:00"
+  },
+  {
+    "CountryCode": "EG",
+    "Name": "Africa/Cairo",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "MA",
+    "Name": "Africa/Casablanca",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+00:00"
+  },
+  {
+    "CountryCode": "ES",
+    "Name": "Africa/Ceuta",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "EH",
+    "Name": "Africa/El_Aaiun",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+00:00"
+  },
+  {
+    "CountryCode": "ZA, LS, SZ",
+    "Name": "Africa/Johannesburg",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "SS",
+    "Name": "Africa/Juba",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "SD",
+    "Name": "Africa/Khartoum",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "NG, AO, BJ, CD, CF, CG, CM, GA, GQ, NE",
+    "Name": "Africa/Lagos",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+01:00"
+  },
+  {
+    "CountryCode": "MZ, BI, BW, CD, MW, RW, ZM, ZW",
+    "Name": "Africa/Maputo",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "LR",
+    "Name": "Africa/Monrovia",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+00:00"
+  },
+  {
+    "CountryCode": "KE, DJ, ER, ET, KM, MG, SO, TZ, UG, YT",
+    "Name": "Africa/Nairobi",
+    "STD_Offset": "+03:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "TD",
+    "Name": "Africa/Ndjamena",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+01:00"
+  },
+  {
+    "CountryCode": "ST",
+    "Name": "Africa/Sao_Tome",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+00:00"
+  },
+  {
+    "CountryCode": "LY",
+    "Name": "Africa/Tripoli",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "TN",
+    "Name": "Africa/Tunis",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+01:00"
+  },
+  {
+    "CountryCode": "NA",
+    "Name": "Africa/Windhoek",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Adak",
+    "STD_Offset": "-10:00",
+    "DST_Offset": "-09:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Anchorage",
+    "STD_Offset": "-09:00",
+    "DST_Offset": "-08:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Araguaina",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AR",
+    "Name": "America/Argentina/Buenos_Aires",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AR",
+    "Name": "America/Argentina/Catamarca",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AR",
+    "Name": "America/Argentina/Cordoba",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AR",
+    "Name": "America/Argentina/Jujuy",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AR",
+    "Name": "America/Argentina/La_Rioja",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AR",
+    "Name": "America/Argentina/Mendoza",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AR",
+    "Name": "America/Argentina/Rio_Gallegos",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AR",
+    "Name": "America/Argentina/Salta",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AR",
+    "Name": "America/Argentina/San_Juan",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AR",
+    "Name": "America/Argentina/San_Luis",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AR",
+    "Name": "America/Argentina/Tucuman",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AR",
+    "Name": "America/Argentina/Ushuaia",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "PY",
+    "Name": "America/Asuncion",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Bahia",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "MX",
+    "Name": "America/Bahia_Banderas",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "BB",
+    "Name": "America/Barbados",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Belem",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "BZ",
+    "Name": "America/Belize",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Boa_Vista",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "CO",
+    "Name": "America/Bogota",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Boise",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Cambridge_Bay",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Campo_Grande",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "MX",
+    "Name": "America/Cancun",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "VE",
+    "Name": "America/Caracas",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "GF",
+    "Name": "America/Cayenne",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Chicago",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "MX",
+    "Name": "America/Chihuahua",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "CR",
+    "Name": "America/Costa_Rica",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Cuiaba",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "GL",
+    "Name": "America/Danmarkshavn",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+00:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Dawson",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-07:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Dawson_Creek",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-07:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Denver",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Detroit",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Edmonton",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Eirunepe",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "SV",
+    "Name": "America/El_Salvador",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Fort_Nelson",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-07:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Fortaleza",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Glace_Bay",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Goose_Bay",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "TC",
+    "Name": "America/Grand_Turk",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "GT",
+    "Name": "America/Guatemala",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "EC",
+    "Name": "America/Guayaquil",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "GY",
+    "Name": "America/Guyana",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Halifax",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "CU",
+    "Name": "America/Havana",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "MX",
+    "Name": "America/Hermosillo",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-07:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Indiana/Indianapolis",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Indiana/Knox",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Indiana/Marengo",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Indiana/Petersburg",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Indiana/Tell_City",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Indiana/Vevay",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Indiana/Vincennes",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Indiana/Winamac",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Inuvik",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Iqaluit",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "JM",
+    "Name": "America/Jamaica",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Juneau",
+    "STD_Offset": "-09:00",
+    "DST_Offset": "-08:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Kentucky/Louisville",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Kentucky/Monticello",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "BO",
+    "Name": "America/La_Paz",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "PE",
+    "Name": "America/Lima",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Los_Angeles",
+    "STD_Offset": "-08:00",
+    "DST_Offset": "-07:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Maceio",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "NI",
+    "Name": "America/Managua",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Manaus",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "MQ",
+    "Name": "America/Martinique",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "MX",
+    "Name": "America/Matamoros",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "MX",
+    "Name": "America/Mazatlan",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Menominee",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "MX",
+    "Name": "America/Merida",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Metlakatla",
+    "STD_Offset": "-09:00",
+    "DST_Offset": "-08:00"
+  },
+  {
+    "CountryCode": "MX",
+    "Name": "America/Mexico_City",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "PM",
+    "Name": "America/Miquelon",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-02:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Moncton",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "MX",
+    "Name": "America/Monterrey",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "UY",
+    "Name": "America/Montevideo",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/New_York",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Nipigon",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Nome",
+    "STD_Offset": "-09:00",
+    "DST_Offset": "-08:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Noronha",
+    "STD_Offset": "-02:00",
+    "DST_Offset": "-02:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/North_Dakota/Beulah",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/North_Dakota/Center",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/North_Dakota/New_Salem",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "GL",
+    "Name": "America/Nuuk",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-02:00"
+  },
+  {
+    "CountryCode": "MX",
+    "Name": "America/Ojinaga",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "PA, CA, KY",
+    "Name": "America/Panama",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Pangnirtung",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "SR",
+    "Name": "America/Paramaribo",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "US, CA",
+    "Name": "America/Phoenix",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-07:00"
+  },
+  {
+    "CountryCode": "HT",
+    "Name": "America/Port-au-Prince",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Porto_Velho",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "PR, AG, CA, AI, AW, BL, BQ, CW, DM, GD, GP, KN, LC, MF, MS, SX, TT, VC, VG, VI",
+    "Name": "America/Puerto_Rico",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "CL",
+    "Name": "America/Punta_Arenas",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Rainy_River",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Rankin_Inlet",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Recife",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Regina",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Resolute",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Rio_Branco",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Santarem",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "CL",
+    "Name": "America/Santiago",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "DO",
+    "Name": "America/Santo_Domingo",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "BR",
+    "Name": "America/Sao_Paulo",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "GL",
+    "Name": "America/Scoresbysund",
+    "STD_Offset": "-01:00",
+    "DST_Offset": "+00:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Sitka",
+    "STD_Offset": "-09:00",
+    "DST_Offset": "-08:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/St_Johns",
+    "STD_Offset": "-03:30",
+    "DST_Offset": "-02:30"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Swift_Current",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "HN",
+    "Name": "America/Tegucigalpa",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "GL",
+    "Name": "America/Thule",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Thunder_Bay",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "MX",
+    "Name": "America/Tijuana",
+    "STD_Offset": "-08:00",
+    "DST_Offset": "-07:00"
+  },
+  {
+    "CountryCode": "CA, BS",
+    "Name": "America/Toronto",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Vancouver",
+    "STD_Offset": "-08:00",
+    "DST_Offset": "-07:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Whitehorse",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-07:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Winnipeg",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "US",
+    "Name": "America/Yakutat",
+    "STD_Offset": "-09:00",
+    "DST_Offset": "-08:00"
+  },
+  {
+    "CountryCode": "CA",
+    "Name": "America/Yellowknife",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "AQ",
+    "Name": "Antarctica/Casey",
+    "STD_Offset": "+11:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "AQ",
+    "Name": "Antarctica/Davis",
+    "STD_Offset": "+07:00",
+    "DST_Offset": "+07:00"
+  },
+  {
+    "CountryCode": "AU",
+    "Name": "Antarctica/Macquarie",
+    "STD_Offset": "+10:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "AQ",
+    "Name": "Antarctica/Mawson",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "AQ",
+    "Name": "Antarctica/Palmer",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AQ",
+    "Name": "Antarctica/Rothera",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AQ",
+    "Name": "Antarctica/Troll",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "KZ",
+    "Name": "Asia/Almaty",
+    "STD_Offset": "+06:00",
+    "DST_Offset": "+06:00"
+  },
+  {
+    "CountryCode": "JO",
+    "Name": "Asia/Amman",
+    "STD_Offset": "+03:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Anadyr",
+    "STD_Offset": "+12:00",
+    "DST_Offset": "+12:00"
+  },
+  {
+    "CountryCode": "KZ",
+    "Name": "Asia/Aqtau",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "KZ",
+    "Name": "Asia/Aqtobe",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "TM",
+    "Name": "Asia/Ashgabat",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "KZ",
+    "Name": "Asia/Atyrau",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "IQ",
+    "Name": "Asia/Baghdad",
+    "STD_Offset": "+03:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "AZ",
+    "Name": "Asia/Baku",
+    "STD_Offset": "+04:00",
+    "DST_Offset": "+04:00"
+  },
+  {
+    "CountryCode": "TH, CX, KH, LA, VN",
+    "Name": "Asia/Bangkok",
+    "STD_Offset": "+07:00",
+    "DST_Offset": "+07:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Barnaul",
+    "STD_Offset": "+07:00",
+    "DST_Offset": "+07:00"
+  },
+  {
+    "CountryCode": "LB",
+    "Name": "Asia/Beirut",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "KG",
+    "Name": "Asia/Bishkek",
+    "STD_Offset": "+06:00",
+    "DST_Offset": "+06:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Chita",
+    "STD_Offset": "+09:00",
+    "DST_Offset": "+09:00"
+  },
+  {
+    "CountryCode": "MN",
+    "Name": "Asia/Choibalsan",
+    "STD_Offset": "+08:00",
+    "DST_Offset": "+08:00"
+  },
+  {
+    "CountryCode": "LK",
+    "Name": "Asia/Colombo",
+    "STD_Offset": "+05:30",
+    "DST_Offset": "+05:30"
+  },
+  {
+    "CountryCode": "SY",
+    "Name": "Asia/Damascus",
+    "STD_Offset": "+03:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "BD",
+    "Name": "Asia/Dhaka",
+    "STD_Offset": "+06:00",
+    "DST_Offset": "+06:00"
+  },
+  {
+    "CountryCode": "TL",
+    "Name": "Asia/Dili",
+    "STD_Offset": "+09:00",
+    "DST_Offset": "+09:00"
+  },
+  {
+    "CountryCode": "AE, OM, RE, SC, TF",
+    "Name": "Asia/Dubai",
+    "STD_Offset": "+04:00",
+    "DST_Offset": "+04:00"
+  },
+  {
+    "CountryCode": "TJ",
+    "Name": "Asia/Dushanbe",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "CY",
+    "Name": "Asia/Famagusta",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "PS",
+    "Name": "Asia/Gaza",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "PS",
+    "Name": "Asia/Hebron",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "VN",
+    "Name": "Asia/Ho_Chi_Minh",
+    "STD_Offset": "+07:00",
+    "DST_Offset": "+07:00"
+  },
+  {
+    "CountryCode": "HK",
+    "Name": "Asia/Hong_Kong",
+    "STD_Offset": "+08:00",
+    "DST_Offset": "+08:00"
+  },
+  {
+    "CountryCode": "MN",
+    "Name": "Asia/Hovd",
+    "STD_Offset": "+07:00",
+    "DST_Offset": "+07:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Irkutsk",
+    "STD_Offset": "+08:00",
+    "DST_Offset": "+08:00"
+  },
+  {
+    "CountryCode": "ID",
+    "Name": "Asia/Jakarta",
+    "STD_Offset": "+07:00",
+    "DST_Offset": "+07:00"
+  },
+  {
+    "CountryCode": "ID",
+    "Name": "Asia/Jayapura",
+    "STD_Offset": "+09:00",
+    "DST_Offset": "+09:00"
+  },
+  {
+    "CountryCode": "IL",
+    "Name": "Asia/Jerusalem",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "AF",
+    "Name": "Asia/Kabul",
+    "STD_Offset": "+04:30",
+    "DST_Offset": "+04:30"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Kamchatka",
+    "STD_Offset": "+12:00",
+    "DST_Offset": "+12:00"
+  },
+  {
+    "CountryCode": "PK",
+    "Name": "Asia/Karachi",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "NP",
+    "Name": "Asia/Kathmandu",
+    "STD_Offset": "+05:45",
+    "DST_Offset": "+05:45"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Khandyga",
+    "STD_Offset": "+09:00",
+    "DST_Offset": "+09:00"
+  },
+  {
+    "CountryCode": "IN",
+    "Name": "Asia/Kolkata",
+    "STD_Offset": "+05:30",
+    "DST_Offset": "+05:30"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Krasnoyarsk",
+    "STD_Offset": "+07:00",
+    "DST_Offset": "+07:00"
+  },
+  {
+    "CountryCode": "MY, BN",
+    "Name": "Asia/Kuching",
+    "STD_Offset": "+08:00",
+    "DST_Offset": "+08:00"
+  },
+  {
+    "CountryCode": "MO",
+    "Name": "Asia/Macau",
+    "STD_Offset": "+08:00",
+    "DST_Offset": "+08:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Magadan",
+    "STD_Offset": "+11:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "ID",
+    "Name": "Asia/Makassar",
+    "STD_Offset": "+08:00",
+    "DST_Offset": "+08:00"
+  },
+  {
+    "CountryCode": "PH",
+    "Name": "Asia/Manila",
+    "STD_Offset": "+08:00",
+    "DST_Offset": "+08:00"
+  },
+  {
+    "CountryCode": "CY",
+    "Name": "Asia/Nicosia",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Novokuznetsk",
+    "STD_Offset": "+07:00",
+    "DST_Offset": "+07:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Novosibirsk",
+    "STD_Offset": "+07:00",
+    "DST_Offset": "+07:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Omsk",
+    "STD_Offset": "+06:00",
+    "DST_Offset": "+06:00"
+  },
+  {
+    "CountryCode": "KZ",
+    "Name": "Asia/Oral",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "ID",
+    "Name": "Asia/Pontianak",
+    "STD_Offset": "+07:00",
+    "DST_Offset": "+07:00"
+  },
+  {
+    "CountryCode": "KP",
+    "Name": "Asia/Pyongyang",
+    "STD_Offset": "+09:00",
+    "DST_Offset": "+09:00"
+  },
+  {
+    "CountryCode": "QA, BH",
+    "Name": "Asia/Qatar",
+    "STD_Offset": "+03:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "KZ",
+    "Name": "Asia/Qostanay",
+    "STD_Offset": "+06:00",
+    "DST_Offset": "+06:00"
+  },
+  {
+    "CountryCode": "KZ",
+    "Name": "Asia/Qyzylorda",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "SA, AQ, KW, YE",
+    "Name": "Asia/Riyadh",
+    "STD_Offset": "+03:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Sakhalin",
+    "STD_Offset": "+11:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "UZ",
+    "Name": "Asia/Samarkand",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "KR",
+    "Name": "Asia/Seoul",
+    "STD_Offset": "+09:00",
+    "DST_Offset": "+09:00"
+  },
+  {
+    "CountryCode": "CN",
+    "Name": "Asia/Shanghai",
+    "STD_Offset": "+08:00",
+    "DST_Offset": "+08:00"
+  },
+  {
+    "CountryCode": "SG, MY",
+    "Name": "Asia/Singapore",
+    "STD_Offset": "+08:00",
+    "DST_Offset": "+08:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Srednekolymsk",
+    "STD_Offset": "+11:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "TW",
+    "Name": "Asia/Taipei",
+    "STD_Offset": "+08:00",
+    "DST_Offset": "+08:00"
+  },
+  {
+    "CountryCode": "UZ",
+    "Name": "Asia/Tashkent",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "GE",
+    "Name": "Asia/Tbilisi",
+    "STD_Offset": "+04:00",
+    "DST_Offset": "+04:00"
+  },
+  {
+    "CountryCode": "IR",
+    "Name": "Asia/Tehran",
+    "STD_Offset": "+03:30",
+    "DST_Offset": "+03:30"
+  },
+  {
+    "CountryCode": "BT",
+    "Name": "Asia/Thimphu",
+    "STD_Offset": "+06:00",
+    "DST_Offset": "+06:00"
+  },
+  {
+    "CountryCode": "JP",
+    "Name": "Asia/Tokyo",
+    "STD_Offset": "+09:00",
+    "DST_Offset": "+09:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Tomsk",
+    "STD_Offset": "+07:00",
+    "DST_Offset": "+07:00"
+  },
+  {
+    "CountryCode": "MN",
+    "Name": "Asia/Ulaanbaatar",
+    "STD_Offset": "+08:00",
+    "DST_Offset": "+08:00"
+  },
+  {
+    "CountryCode": "CN, AQ",
+    "Name": "Asia/Urumqi",
+    "STD_Offset": "+06:00",
+    "DST_Offset": "+06:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Ust-Nera",
+    "STD_Offset": "+10:00",
+    "DST_Offset": "+10:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Vladivostok",
+    "STD_Offset": "+10:00",
+    "DST_Offset": "+10:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Yakutsk",
+    "STD_Offset": "+09:00",
+    "DST_Offset": "+09:00"
+  },
+  {
+    "CountryCode": "MM, CC",
+    "Name": "Asia/Yangon",
+    "STD_Offset": "+06:30",
+    "DST_Offset": "+06:30"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Asia/Yekaterinburg",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "AM",
+    "Name": "Asia/Yerevan",
+    "STD_Offset": "+04:00",
+    "DST_Offset": "+04:00"
+  },
+  {
+    "CountryCode": "PT",
+    "Name": "Atlantic/Azores",
+    "STD_Offset": "-01:00",
+    "DST_Offset": "+00:00"
+  },
+  {
+    "CountryCode": "BM",
+    "Name": "Atlantic/Bermuda",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "ES",
+    "Name": "Atlantic/Canary",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+01:00"
+  },
+  {
+    "CountryCode": "CV",
+    "Name": "Atlantic/Cape_Verde",
+    "STD_Offset": "-01:00",
+    "DST_Offset": "-01:00"
+  },
+  {
+    "CountryCode": "FO",
+    "Name": "Atlantic/Faroe",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+01:00"
+  },
+  {
+    "CountryCode": "PT",
+    "Name": "Atlantic/Madeira",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+01:00"
+  },
+  {
+    "CountryCode": "GS",
+    "Name": "Atlantic/South_Georgia",
+    "STD_Offset": "-02:00",
+    "DST_Offset": "-02:00"
+  },
+  {
+    "CountryCode": "FK",
+    "Name": "Atlantic/Stanley",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "AU",
+    "Name": "Australia/Adelaide",
+    "STD_Offset": "+09:30",
+    "DST_Offset": "+10:30"
+  },
+  {
+    "CountryCode": "AU",
+    "Name": "Australia/Brisbane",
+    "STD_Offset": "+10:00",
+    "DST_Offset": "+10:00"
+  },
+  {
+    "CountryCode": "AU",
+    "Name": "Australia/Broken_Hill",
+    "STD_Offset": "+09:30",
+    "DST_Offset": "+10:30"
+  },
+  {
+    "CountryCode": "AU",
+    "Name": "Australia/Darwin",
+    "STD_Offset": "+09:30",
+    "DST_Offset": "+09:30"
+  },
+  {
+    "CountryCode": "AU",
+    "Name": "Australia/Eucla",
+    "STD_Offset": "+08:45",
+    "DST_Offset": "+08:45"
+  },
+  {
+    "CountryCode": "AU",
+    "Name": "Australia/Hobart",
+    "STD_Offset": "+10:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "AU",
+    "Name": "Australia/Lindeman",
+    "STD_Offset": "+10:00",
+    "DST_Offset": "+10:00"
+  },
+  {
+    "CountryCode": "AU",
+    "Name": "Australia/Lord_Howe",
+    "STD_Offset": "+10:30",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "AU",
+    "Name": "Australia/Melbourne",
+    "STD_Offset": "+10:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "AU",
+    "Name": "Australia/Perth",
+    "STD_Offset": "+08:00",
+    "DST_Offset": "+08:00"
+  },
+  {
+    "CountryCode": "AU",
+    "Name": "Australia/Sydney",
+    "STD_Offset": "+10:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "CET",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "CST6CDT",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "EET",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "EST",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "EST5EDT",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+00:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT+1",
+    "STD_Offset": "-01:00",
+    "DST_Offset": "-01:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT+10",
+    "STD_Offset": "-10:00",
+    "DST_Offset": "-10:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT+11",
+    "STD_Offset": "-11:00",
+    "DST_Offset": "-11:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT+12",
+    "STD_Offset": "-12:00",
+    "DST_Offset": "-12:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT+2",
+    "STD_Offset": "-02:00",
+    "DST_Offset": "-02:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT+3",
+    "STD_Offset": "-03:00",
+    "DST_Offset": "-03:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT+4",
+    "STD_Offset": "-04:00",
+    "DST_Offset": "-04:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT+5",
+    "STD_Offset": "-05:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT+6",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT+7",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-07:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT+8",
+    "STD_Offset": "-08:00",
+    "DST_Offset": "-08:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT+9",
+    "STD_Offset": "-09:00",
+    "DST_Offset": "-09:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-1",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+01:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-10",
+    "STD_Offset": "+10:00",
+    "DST_Offset": "+10:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-11",
+    "STD_Offset": "+11:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-12",
+    "STD_Offset": "+12:00",
+    "DST_Offset": "+12:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-13",
+    "STD_Offset": "+13:00",
+    "DST_Offset": "+13:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-14",
+    "STD_Offset": "+14:00",
+    "DST_Offset": "+14:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-2",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-3",
+    "STD_Offset": "+03:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-4",
+    "STD_Offset": "+04:00",
+    "DST_Offset": "+04:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-5",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-6",
+    "STD_Offset": "+06:00",
+    "DST_Offset": "+06:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-7",
+    "STD_Offset": "+07:00",
+    "DST_Offset": "+07:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-8",
+    "STD_Offset": "+08:00",
+    "DST_Offset": "+08:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/GMT-9",
+    "STD_Offset": "+09:00",
+    "DST_Offset": "+09:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Etc/UTC",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+00:00"
+  },
+  {
+    "CountryCode": "AD",
+    "Name": "Europe/Andorra",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Europe/Astrakhan",
+    "STD_Offset": "+04:00",
+    "DST_Offset": "+04:00"
+  },
+  {
+    "CountryCode": "GR",
+    "Name": "Europe/Athens",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "RS, BA, HR, ME, MK, SI",
+    "Name": "Europe/Belgrade",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "DE, DK, NO, SE, SJ",
+    "Name": "Europe/Berlin",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "BE, LU, NL",
+    "Name": "Europe/Brussels",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "RO",
+    "Name": "Europe/Bucharest",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "HU",
+    "Name": "Europe/Budapest",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "MD",
+    "Name": "Europe/Chisinau",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "IE",
+    "Name": "Europe/Dublin",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+00:00"
+  },
+  {
+    "CountryCode": "GI",
+    "Name": "Europe/Gibraltar",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "FI, AX",
+    "Name": "Europe/Helsinki",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "TR",
+    "Name": "Europe/Istanbul",
+    "STD_Offset": "+03:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Europe/Kaliningrad",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Europe/Kirov",
+    "STD_Offset": "+03:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "UA",
+    "Name": "Europe/Kyiv",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "PT",
+    "Name": "Europe/Lisbon",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+01:00"
+  },
+  {
+    "CountryCode": "GB, GG, IM, JE",
+    "Name": "Europe/London",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+01:00"
+  },
+  {
+    "CountryCode": "ES",
+    "Name": "Europe/Madrid",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "MT",
+    "Name": "Europe/Malta",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "BY",
+    "Name": "Europe/Minsk",
+    "STD_Offset": "+03:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Europe/Moscow",
+    "STD_Offset": "+03:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "FR, MC",
+    "Name": "Europe/Paris",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "CZ, SK",
+    "Name": "Europe/Prague",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "LV",
+    "Name": "Europe/Riga",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "IT, SM, VA",
+    "Name": "Europe/Rome",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Europe/Samara",
+    "STD_Offset": "+04:00",
+    "DST_Offset": "+04:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Europe/Saratov",
+    "STD_Offset": "+04:00",
+    "DST_Offset": "+04:00"
+  },
+  {
+    "CountryCode": "RU, UA",
+    "Name": "Europe/Simferopol",
+    "STD_Offset": "+03:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "BG",
+    "Name": "Europe/Sofia",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "EE",
+    "Name": "Europe/Tallinn",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "AL",
+    "Name": "Europe/Tirane",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Europe/Ulyanovsk",
+    "STD_Offset": "+04:00",
+    "DST_Offset": "+04:00"
+  },
+  {
+    "CountryCode": "AT",
+    "Name": "Europe/Vienna",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "LT",
+    "Name": "Europe/Vilnius",
+    "STD_Offset": "+02:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "RU",
+    "Name": "Europe/Volgograd",
+    "STD_Offset": "+03:00",
+    "DST_Offset": "+03:00"
+  },
+  {
+    "CountryCode": "PL",
+    "Name": "Europe/Warsaw",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "CH, DE, LI",
+    "Name": "Europe/Zurich",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "Factory",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+00:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "HST",
+    "STD_Offset": "-10:00",
+    "DST_Offset": "-10:00"
+  },
+  {
+    "CountryCode": "IO",
+    "Name": "Indian/Chagos",
+    "STD_Offset": "+06:00",
+    "DST_Offset": "+06:00"
+  },
+  {
+    "CountryCode": "MV, TF",
+    "Name": "Indian/Maldives",
+    "STD_Offset": "+05:00",
+    "DST_Offset": "+05:00"
+  },
+  {
+    "CountryCode": "MU",
+    "Name": "Indian/Mauritius",
+    "STD_Offset": "+04:00",
+    "DST_Offset": "+04:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "MET",
+    "STD_Offset": "+01:00",
+    "DST_Offset": "+02:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "MST",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-07:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "MST7MDT",
+    "STD_Offset": "-07:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "WS",
+    "Name": "Pacific/Apia",
+    "STD_Offset": "+13:00",
+    "DST_Offset": "+13:00"
+  },
+  {
+    "CountryCode": "NZ, AQ",
+    "Name": "Pacific/Auckland",
+    "STD_Offset": "+12:00",
+    "DST_Offset": "+13:00"
+  },
+  {
+    "CountryCode": "PG",
+    "Name": "Pacific/Bougainville",
+    "STD_Offset": "+11:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "NZ",
+    "Name": "Pacific/Chatham",
+    "STD_Offset": "+12:45",
+    "DST_Offset": "+13:45"
+  },
+  {
+    "CountryCode": "CL",
+    "Name": "Pacific/Easter",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-05:00"
+  },
+  {
+    "CountryCode": "VU",
+    "Name": "Pacific/Efate",
+    "STD_Offset": "+11:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "TK",
+    "Name": "Pacific/Fakaofo",
+    "STD_Offset": "+13:00",
+    "DST_Offset": "+13:00"
+  },
+  {
+    "CountryCode": "FJ",
+    "Name": "Pacific/Fiji",
+    "STD_Offset": "+12:00",
+    "DST_Offset": "+13:00"
+  },
+  {
+    "CountryCode": "EC",
+    "Name": "Pacific/Galapagos",
+    "STD_Offset": "-06:00",
+    "DST_Offset": "-06:00"
+  },
+  {
+    "CountryCode": "PF",
+    "Name": "Pacific/Gambier",
+    "STD_Offset": "-09:00",
+    "DST_Offset": "-09:00"
+  },
+  {
+    "CountryCode": "SB, FM",
+    "Name": "Pacific/Guadalcanal",
+    "STD_Offset": "+11:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "GU, MP",
+    "Name": "Pacific/Guam",
+    "STD_Offset": "+10:00",
+    "DST_Offset": "+10:00"
+  },
+  {
+    "CountryCode": "US, UM",
+    "Name": "Pacific/Honolulu",
+    "STD_Offset": "-10:00",
+    "DST_Offset": "-10:00"
+  },
+  {
+    "CountryCode": "KI",
+    "Name": "Pacific/Kanton",
+    "STD_Offset": "+13:00",
+    "DST_Offset": "+13:00"
+  },
+  {
+    "CountryCode": "KI",
+    "Name": "Pacific/Kiritimati",
+    "STD_Offset": "+14:00",
+    "DST_Offset": "+14:00"
+  },
+  {
+    "CountryCode": "FM",
+    "Name": "Pacific/Kosrae",
+    "STD_Offset": "+11:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "MH",
+    "Name": "Pacific/Kwajalein",
+    "STD_Offset": "+12:00",
+    "DST_Offset": "+12:00"
+  },
+  {
+    "CountryCode": "PF",
+    "Name": "Pacific/Marquesas",
+    "STD_Offset": "-09:30",
+    "DST_Offset": "-09:30"
+  },
+  {
+    "CountryCode": "NR",
+    "Name": "Pacific/Nauru",
+    "STD_Offset": "+12:00",
+    "DST_Offset": "+12:00"
+  },
+  {
+    "CountryCode": "NU",
+    "Name": "Pacific/Niue",
+    "STD_Offset": "-11:00",
+    "DST_Offset": "-11:00"
+  },
+  {
+    "CountryCode": "NF",
+    "Name": "Pacific/Norfolk",
+    "STD_Offset": "+11:00",
+    "DST_Offset": "+12:00"
+  },
+  {
+    "CountryCode": "NC",
+    "Name": "Pacific/Noumea",
+    "STD_Offset": "+11:00",
+    "DST_Offset": "+11:00"
+  },
+  {
+    "CountryCode": "AS, UM",
+    "Name": "Pacific/Pago_Pago",
+    "STD_Offset": "-11:00",
+    "DST_Offset": "-11:00"
+  },
+  {
+    "CountryCode": "PW",
+    "Name": "Pacific/Palau",
+    "STD_Offset": "+09:00",
+    "DST_Offset": "+09:00"
+  },
+  {
+    "CountryCode": "PN",
+    "Name": "Pacific/Pitcairn",
+    "STD_Offset": "-08:00",
+    "DST_Offset": "-08:00"
+  },
+  {
+    "CountryCode": "PG, AQ, FM",
+    "Name": "Pacific/Port_Moresby",
+    "STD_Offset": "+10:00",
+    "DST_Offset": "+10:00"
+  },
+  {
+    "CountryCode": "CK",
+    "Name": "Pacific/Rarotonga",
+    "STD_Offset": "-10:00",
+    "DST_Offset": "-10:00"
+  },
+  {
+    "CountryCode": "PF",
+    "Name": "Pacific/Tahiti",
+    "STD_Offset": "-10:00",
+    "DST_Offset": "-10:00"
+  },
+  {
+    "CountryCode": "KI, MH, TV, UM, WF",
+    "Name": "Pacific/Tarawa",
+    "STD_Offset": "+12:00",
+    "DST_Offset": "+12:00"
+  },
+  {
+    "CountryCode": "TO",
+    "Name": "Pacific/Tongatapu",
+    "STD_Offset": "+13:00",
+    "DST_Offset": "+13:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "PST8PDT",
+    "STD_Offset": "-08:00",
+    "DST_Offset": "-07:00"
+  },
+  {
+    "CountryCode": "",
+    "Name": "WET",
+    "STD_Offset": "+00:00",
+    "DST_Offset": "+01:00"
+  }
+]
