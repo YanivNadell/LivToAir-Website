@@ -1,0 +1,141 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #07070d;
+    overflow: hidden;
+    cursor: none;
+}
+
+:root{
+    --TitleFont: 1
+}
+
+@font-face {
+    font-family: "Aharoni-Bold";
+    src: url("../../Fonts/Aharoni\ Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "poppins.light";
+    src: url("../../Fonts/poppins.light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#cursor{
+    position: absolute;
+    width: 40px; height: 40px;
+    background-image: url(../../Assets/cursorBlack.png);
+    background-size: cover;
+    transform: translate(-50%, -50%);
+    transform-origin: 0px 0px;
+    transition: top 0.05s linear, left 0.05s linear, rotate 0.05s linear, opacity 0.5s ease;
+    pointer-events: none;
+}
+
+#background_Mask{
+    position: absolute;
+    width: 100vw; height: 100vh;
+    background-size: 40px 40px;
+    background-image:
+        linear-gradient(to right, rgb(255, 255, 255) 1px, transparent 1px),
+        linear-gradient(to bottom, rgb(255, 255, 255) 1px, transparent 1px);
+    opacity: 0.007;
+}
+#background{
+    position: absolute;
+    width: 100vw; height: 100vh;
+    background-color: rgba(255, 255, 255, 0.05);
+    background-size: 40px 40px;
+    background-image:
+        linear-gradient(to right, rgb(255, 255, 255) 1px, transparent 1px),
+        linear-gradient(to bottom, rgb(255, 255, 255) 1px, transparent 1px);
+
+    -webkit-mask-image: url(../../Assets/Mask.png);
+    mask-image: url(../../Assets/Mask.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    opacity: 0.07;
+}
+#BackgroundDetailAnim{
+    position: absolute;
+    width: 100vw; height: 100vh;
+    background-color: rgba(255, 255, 255, 0.05);
+    background-size: 40px 40px;
+    background-image:
+        linear-gradient(to right, rgb(255, 255, 255) 1px, transparent 1px),
+        linear-gradient(to bottom, rgb(255, 255, 255) 1px, transparent 1px);
+
+    -webkit-mask-image: url(.../../.../../Assets/Mask.png);
+    mask-image: url(.../../.../../Assets/Mask.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-size: 100vh 100vh;
+    opacity: 0.05;
+    transition: opacity 0.5s ease;
+    animation: BackgroundDetailAnim 15s linear infinite;
+}
+@keyframes BackgroundDetailAnim {
+    0%{ mask-position: -50vh -50vh;}
+    25% { mask-position: calc(100vw - 50vh) 50vh;}
+    50% { mask-position: -50vh 50vh;}
+    75% { mask-position: calc(100vw - 50vh) -50vh;}
+    100% { mask-position: -50vh -50vh;}
+}
+
+#BackgroundDetailAnim2{
+    position: absolute;
+    width: 100vw; height: 100vh;
+    background-color: rgba(255, 255, 255, 0.05);
+    background-size: 40px 40px;
+    background-image:
+        linear-gradient(to right, rgb(255, 255, 255) 1px, transparent 1px),
+        linear-gradient(to bottom, rgb(255, 255, 255) 1px, transparent 1px);
+
+    -webkit-mask-image: url(.../../.../../Assets/Mask.png);
+    mask-image: url(.../../.../../Assets/Mask.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-size: 100vh 100vh;
+    opacity: 0.05;
+    mask-position: -100vh -100vh;
+    transition: opacity 0.5s ease;
+    animation: BackgroundDetailAnim2 15s -5s linear infinite;
+}
+@keyframes BackgroundDetailAnim2 {
+    0%{ mask-position: -50vh -50vh;}
+    25% { mask-position: -50vh 50vh;}
+    50% { mask-position: calc(100vw - 50vh) -50vh;}
+    75% { mask-position: calc(100vw - 50vh) 50vh;}
+    100% { mask-position: -50vh -50vh;}
+}
+
+#Title{
+    position: absolute;
+    left: 50%; top: 50%;
+    translate: -50% -50%;
+    scale: var(--TitleFont);
+    color: white;
+    font-family: "Aharoni-Bold";
+    font-weight: bold;
+    font-size: 100px;
+    transition: all 0.5s ease-out;
+    /* transform: rotateX(20deg); */
+    color: #FFFFFF;
+}
+
+#ScrollDownText{
+    position: absolute;
+    width: 100vw;
+    bottom: 10px;
+    color: white;
+    text-align: center;
+    font-family: "poppins.light";
+    font-size: 15px;
+    opacity: 0.3;
+    transition: all 1s ease;
+}
