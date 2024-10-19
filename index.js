@@ -35,15 +35,15 @@ var MainWebsite = false;
 //     if(steps >= stepMax) {
 //         MainWebsite = true;
 //         setTimeout(() => {
-//             window.location.href = '../../Pages/Home/home.html'
+//             window.location.href = './Pages/Home/home.html'
 //         }, 700);
 //     }
 // });
 
 
 var cursorType = Math.round(Math.random())
-if(cursorType == 1) document.getElementById("cursor").style.backgroundImage = "url(../../Assets/cursorBlack2.png)"
-else document.getElementById("cursor").style.backgroundImage = "url(../../Assets/cursorBlack.png)"
+if(cursorType == 1) document.getElementById("cursor").style.backgroundImage = "url(./Assets/cursorBlack2.png)"
+else document.getElementById("cursor").style.backgroundImage = "url(./Assets/cursorBlack.png)"
 
 var mouseX1, mouseY1, mouseX2, mouseY2
 var mouseFlag = false
